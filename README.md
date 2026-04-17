@@ -1,5 +1,7 @@
 # ☕ Starbucks Calorie Prediction
 
+This notebook explores nutritional data from Starbucks and builds machine learning models to predict calorie content.
+
 ## 📌 Overview
 
 This project predicts the calorie content of Starbucks menu items using machine learning techniques.
@@ -130,3 +132,9 @@ jupyter notebook
 I started with EDA and feature engineering, then trained both Linear Regression and Random Forest models.
 While Linear Regression provided a baseline, Random Forest performed better by capturing non-linear patterns.
 I evaluated performance using MSE and R², and analyzed feature importance to understand key drivers of calories.”
+
+## 📌 Final Conclusion
+
+Random Forest outperformed Linear Regression by achieving a higher R² score and capturing non-linear relationships in the data more effectively.
+
+This indicates that calorie prediction depends on complex interactions between nutritional features, which tree-based models handle better than linear models.
