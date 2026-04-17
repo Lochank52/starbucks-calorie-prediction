@@ -62,7 +62,7 @@ The models were evaluated using:
 * **Mean Squared Error (MSE)** → Measures prediction error
 * **R² Score** → Measures how well the model explains variance
 
-Example output:
+## 📊 Final Metrics
 
 * Linear Regression:
 
@@ -74,6 +74,12 @@ Example output:
   * R² Score: *(0.960404622173009)*
 
 ---
+
+## 🏆 Best Model
+
+Random Forest outperformed Linear Regression by achieving a higher R² score and lower prediction error.
+
+This shows that calorie prediction depends on non-linear relationships, which Random Forest captures better.
 
 ## 📊 Visualizations
 
@@ -126,12 +132,10 @@ jupyter notebook
 
 ---
 
-## 💬 Interview Explanation (Quick Summary)
+## 💡 Why This Project Matters
 
-“I built a regression model to predict calories using nutritional features.
-I started with EDA and feature engineering, then trained both Linear Regression and Random Forest models.
-While Linear Regression provided a baseline, Random Forest performed better by capturing non-linear patterns.
-I evaluated performance using MSE and R², and analyzed feature importance to understand key drivers of calories.”
+Understanding calorie composition helps in making healthier food choices.  
+This model demonstrates how nutritional data can be used to predict calorie content accurately.
 
 ## 📌 Final Conclusion
 
