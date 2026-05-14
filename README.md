@@ -118,7 +118,7 @@ This is a great example of why blindly choosing complex models is not always the
 
 ## 🧠 Key Insights
 
-- **Fat and sugar are the strongest predictors** of calorie content
+- **Sugar is the strongest predictors** of calorie content
 - **Linear Regression (R² = 0.9878) outperformed Random Forest (R² = 0.9604)** — proving the relationships in this dataset are fundamentally linear
 - **Engineered features** like `calorie_per_fat` and `sugar_to_calorie_ratio` added meaningful signal beyond raw values
 - **Model simplicity won** — a reminder that the best model is the one that fits the data, not the most complex one
